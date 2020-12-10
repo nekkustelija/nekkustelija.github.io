@@ -1,0 +1,279 @@
+.navbar-custom{ 
+    background-color: #DCDCDC; 
+}
+
+body {
+  background-image: url('https://cdn.pixabay.com/photo/2017/03/02/00/03/texture-2110023_1280.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+	color: white;
+  }
+}
+
+#feedback {
+	 
+	
+}
+
+#contact {
+	
+}
+
+#Anna {
+margin: 150px 0px 25px 0px;
+background-color: #DCDCDC;
+box-shadow: 10px 10px #DDA0DD;
+}
+
+#John {
+margin: 0px 0px 25px 0px;
+background-color: #9370DB;
+box-shadow: 10px 10px #DDA0DD;
+}
+
+#Zoe {
+margin: 0px 0px 25px 0px;
+background-color: #DCDCDC;
+box-shadow: 10px 10px #DDA0DD;
+}
+
+.col-md-6{
+	margin: 75px 0px 0px 0px;
+}
+
+
+figure {
+	padding: 50px 0px 0px 0px;
+}
+
+h5 {
+	padding: 0px 0px 25px 0px;
+	
+}
+
+ form {
+	color: white;
+	font-weight: bold;
+}
+
+input[type=text] {
+  color: purple;
+  width: 50%
+}
+
+input[type=email] {
+  color: purple;
+  width: 50%
+}
+
+footer {
+	color: #8A2BE2;
+	background-color: #DCDCDC;
+	position: relative;
+}
+
+a:link { 
+	transition: all 1s linear 1s;
+	color: #8A2BE2; 
+	transition-delay: 1s;
+	} 
+	
+a:hover { 
+	color: yellow; 
+	transition-duration: .25s;
+	transition-delay: 1s;
+	}
+
+a:visited {
+  color: yellow;
+}
+
+#boxy1 {
+  width: 200px;
+  height: 200px;
+  background: yellow;
+  transition: width 1s, height 1s;
+}
+
+#boxy1:hover {
+  width: 600px;
+  height: 400px;
+}
+
+#boxy2 {
+  width: 200px;
+  height: 200px;
+  background: #9932CC;
+  transition: width 1s, height 1s;
+}
+
+#boxy2:hover {
+  width: 600px;
+  height: 400px;
+}
+
+#boxy3 {
+  width: 200px;
+  height: 200px;
+  background: #DCDCDC;
+  transition: width 1s, height 1s;
+}
+
+#boxy3:hover {
+  width: 600px;
+  height: 400px;
+}
+
+#boxy4 {
+  width: 200px;
+  height: 200px;
+  background: #DDA0DD;
+  transition: width 1s, height 1s;
+}
+
+#boxy4:hover {
+  width: 600px;
+  height: 400px;
+}
+
+#boxy5 {
+  width: 200px;
+  height: 200px;
+  background: white;
+  transition: width 1s, height 1s;
+}
+
+#boxy5:hover {
+  width: 600px;
+  height: 400px;
+}
+
+#boxy6 {
+  width: 200px;
+  height: 200px;
+  background: #9932CC;
+  transition: width 1s, height 1s;
+}
+
+#boxy6:hover {
+  width: 600px;
+  height: 400px;
+}
+
+#boxy7 {
+  width: 200px;
+  height: 200px;
+  background: #DDA0DD;
+  transition: width 1s, height 1s;
+}
+
+#boxy7:hover {
+  width: 600px;
+  height: 400px;
+}
+
+#boxy8 {
+  width: 200px;
+  height: 200px;
+  background: yellow;
+  transition: width 1s, height 1s;
+}
+
+#boxy8:hover {
+  width: 600px;
+  height: 400px;
+}
+
+#boxy9 {
+  width: 200px;
+  height: 200px;
+  background: #DDA0DD;
+  transition: width 1s, height 1s;
+}
+
+#boxy9:hover {
+  width: 600px;
+  height: 400px;
+}
+
+
+#boxes {
+	margin: 100px 100px 25px 100px;
+}
+
+h3 {
+	color: #DDA0DD;
+	text-shadow: 2px 2px #663399;
+	text-align: center;
+	margin: 25px;	
+}
+
+#child {
+	color: yellow;
+	text-shadow: 2px 2px #663399;
+	text-align: center;
+	margin: 10px;	
+}
+
+.jumbotron {
+	margin: 50px 25px;
+	background-color: #DCDCDC;
+	color: #8A2BE2;
+}
+
+.container {
+  margin: 25px;
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #DDA0DD;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+h2 {
+	color: white;
+	padding: 0px 0px 50px 0px;
+}
+
+#front {
+	color: white;
+	margin: 50px 0px 0px 0px;
+	background-color: #DDA0DD;
+	
+}
+
+.horseshoe {
+	margin: 0px 0px 25px 50px;
+}
